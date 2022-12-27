@@ -34,6 +34,7 @@ const Counter = () => {
   
  return (
     <Container sx={containerStyle}>
+          <h1>State management with Zustang</h1>
       <Typography>{counter}</Typography>
       <Stack spacing={2}>
         <Stack spacing={2} direction="row">
